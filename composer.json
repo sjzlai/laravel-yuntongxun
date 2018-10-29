@@ -6,7 +6,10 @@
             "email": "sjzlai520@163.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": "^5.3.3 || ^7.0",
+        "another-vendor/package": "1.*"
+    },
     "autoload": {
         "psr-4": {
             "SJZLAI\\YUNTONGXUN\\":"src/"
